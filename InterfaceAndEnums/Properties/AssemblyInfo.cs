@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("InterfaceAndEnums")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Brbmidth")]
+[assembly: AssemblyCompany("Brb")]
 [assembly: AssemblyProduct("InterfaceAndEnums")]
-[assembly: AssemblyCopyright("Copyright © Brbmidth 2012")]
+[assembly: AssemblyCopyright("Copyright © Brb 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

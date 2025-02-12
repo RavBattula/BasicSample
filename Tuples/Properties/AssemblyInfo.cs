@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Tuples")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Brbmidth")]
+[assembly: AssemblyCompany("Brb")]
 [assembly: AssemblyProduct("Tuples")]
-[assembly: AssemblyCopyright("Copyright © Brbmidth 2012")]
+[assembly: AssemblyCopyright("Copyright © Brb 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

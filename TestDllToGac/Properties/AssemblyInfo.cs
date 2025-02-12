@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TestDllToGac")]
-[assembly: AssemblyDescription("FLSmidth")]
+[assembly: AssemblyDescription("Brbmidth")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("FLSmidth")]
+[assembly: AssemblyCompany("Brbmidth")]
 [assembly: AssemblyProduct("TestDllToGac")]
 [assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]

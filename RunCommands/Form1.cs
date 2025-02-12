@@ -17,7 +17,7 @@ namespace RunCommands
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string command = "Xcopy " + "C:\\FLSADev\\Bin\\License\\*.* " + "C:\\FLSADEVBACKUP\\Bin\\License\\*.*";//Console.ReadLine().Trim(); //
+            string command = "Xcopy " + "C:\\BrbADev\\Bin\\License\\*.* " + "C:\\BrbADEVBACKUP\\Bin\\License\\*.*";//Console.ReadLine().Trim(); //
             ExecuteCommands cmd = new ExecuteCommands();
             string result = cmd.ExecuteCommand(command);
             richTextBox1.Text = result;

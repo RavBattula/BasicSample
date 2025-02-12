@@ -10,7 +10,7 @@ namespace RunCommands
         static void Main(string[] args)
         {
             //Console.WriteLine("Enter command to execute:");
-            //string command = "Xcopy " + "C:\\FLSADev\\Bin\\License\\*.* " + "C:\\FLSADEVBACKUP\\Bin\\License\\*.*";//Console.ReadLine().Trim(); //
+            //string command = "Xcopy " + "C:\\BrbADev\\Bin\\License\\*.* " + "C:\\BrbADEVBACKUP\\Bin\\License\\*.*";//Console.ReadLine().Trim(); //
             //ExecuteCommands cmd = new ExecuteCommands();
             //cmd.ExecuteCommand(command);
             ////   net time \\maa202089 /set /y

@@ -17,7 +17,7 @@ namespace RunCommandsForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string command = "echo f|xcopy " + "C:\\FLSADev\\Bin\\License\\*.* " + "C:\\FLSADEVBACKUP\\Bin\\License\\*.*";//Console.ReadLine().Trim(); //
+            string command = "echo f|xcopy " + "C:\\BrbADev\\Bin\\License\\*.* " + "C:\\BrbADEVBACKUP\\Bin\\License\\*.*";//Console.ReadLine().Trim(); //
             string result = ExecuteCommand(command);
             richTextBox1.Text = result;
         }

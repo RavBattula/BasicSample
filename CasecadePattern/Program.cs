@@ -9,8 +9,8 @@ namespace CasecadePattern
         private static void Main(string[] args)
         {
             Mailer.Send((mailer) =>
-                mailer.To("test-in@flsmidth.com")
-                    .From("brb-in@flsmidth.com")
+                mailer.To("test-in@Brbmidth.com")
+                    .From("brb-in@Brbmidth.com")
                     .Subject("Subject")
                     .Body("body")
                 );
@@ -68,8 +68,8 @@ namespace CasecadePattern
         static void Main(string[] args)
         {
             Mailer mailer = new Mailer();
-            mailer.To("test-in@flsmidth.com");
-            mailer.From("brb-in@flsmidth.com");
+            mailer.To("test-in@Brbmidth.com");
+            mailer.From("brb-in@Brbmidth.com");
             mailer.Subject("Subject");
             mailer.Body("body");
             mailer.Send(); 
@@ -120,8 +120,8 @@ namespace CasecadePattern
         static void Main(string[] args)
         {
             new Mailer()
-                .To("test-in@flsmidth.com")
-                .From("brb-in@flsmidth.com")
+                .To("test-in@Brbmidth.com")
+                .From("brb-in@Brbmidth.com")
                 .Subject("Subject")
                 .Body("body")
                 .Send(); 

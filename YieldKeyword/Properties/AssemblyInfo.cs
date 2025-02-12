@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("YieldKeyword")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("FLSmidth")]
+[assembly: AssemblyCompany("Brbmidth")]
 [assembly: AssemblyProduct("YieldKeyword")]
-[assembly: AssemblyCopyright("Copyright © FLSmidth 2012")]
+[assembly: AssemblyCopyright("Copyright © Brbmidth 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

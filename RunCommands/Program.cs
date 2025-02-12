@@ -16,7 +16,7 @@ namespace RunCommands
             ////   net time \\maa202089 /set /y
             //Console.WriteLine("Done... Press enter to exit");
             //Console.Read();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTexcharteringDefault(false);
             Application.Run(new Form1());
         }
     }

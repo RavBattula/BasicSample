@@ -16,7 +16,7 @@ namespace MVPSample
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTexcharteringDefault(false);
             MyPresenter presenter = new MyPresenter();
             Application.Run((Form)presenter.View);
         }

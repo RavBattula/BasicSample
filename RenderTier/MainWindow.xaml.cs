@@ -25,23 +25,23 @@ namespace RenderTier
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int currentRenderTier = (RenderCapability.Tier >> 16);
-            switch (currentRenderTier)
+            int currencharterTier = (RenderCapability.Tier >> 16);
+            switch (currencharterTier)
             {
                 case 0:
-                    renderTier.Text = string.Format("{0} No hardware acceleration.", currentRenderTier.ToString());
+                    renderTier.Text = string.Format("{0} No hardware acceleration.", currencharterTier.ToString());
                     break;
 
                 case 1:
-                    renderTier.Text = string.Format("{0} Partial hardware acceleration.", currentRenderTier.ToString());
+                    renderTier.Text = string.Format("{0} Partial hardware acceleration.", currencharterTier.ToString());
                     break;
 
                 case 2:
-                    renderTier.Text = string.Format("{0} Full hardware acceleration.", currentRenderTier.ToString());
+                    renderTier.Text = string.Format("{0} Full hardware acceleration.", currencharterTier.ToString());
                     break;
 
                 default:
-                    renderTier.Text = string.Format("{0} Rendering not applicable", currentRenderTier.ToString());
+                    renderTier.Text = string.Format("{0} Rendering not applicable", currencharterTier.ToString());
                     break;
             }
         }

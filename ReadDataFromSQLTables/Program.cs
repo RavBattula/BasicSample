@@ -14,7 +14,7 @@ namespace ReadDataFromSQLTables
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTexcharteringDefault(false);
             Application.Run(new Form1());
         }
     }

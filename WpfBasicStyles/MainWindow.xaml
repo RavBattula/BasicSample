@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfBasicStyles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBlock}"> <!--TargetType="TextBlock">-->
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style x:Key="myControlStyle" TargetType="{x:Type Control}">
+            <Setter Property="Background" Value="Blue"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Style="{StaticResource myControlStyle}" Grid.Row="0" Grid.Column="0" Height="23" Width="150" VerticalAlignment="Top">Hello</Button>
+        <Button Grid.Row="0" Grid.Column="1" Height="23" Width="150" VerticalAlignment="Top">There</Button>
+        <TextBlock Grid.Row="1" Grid.Column="0">Hello</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1">There</TextBlock> <!--Style="{StaticResource textBlockStyle}" -->
+    </Grid>
+</Window>
